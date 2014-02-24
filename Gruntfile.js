@@ -8,12 +8,17 @@ module.exports = function(grunt) {
                     'examples/build.js':    ['examples/example.js']
                 },
                 options: {
-                    //standalone: ''
+                    //standalone: '',
+                    transform: ['grunt-less-browserify']
                 }
             },
             test: {
                 files: {
                     'test/build.js':        ['test/test.js']
+                },
+                options: {
+                    transform: ['grunt-less-browserify'],
+                    debug:     true
                 }
             }
         },
