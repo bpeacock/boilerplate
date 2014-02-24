@@ -34,6 +34,9 @@ module.exports = function(grunt) {
             dist: {
                 files: {
                     'dist/lib.min.js': ['dist/lib.js']
+                },
+                options: {
+                    sourceMap: true
                 }
             }
         },
