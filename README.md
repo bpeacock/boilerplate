@@ -1,23 +1,16 @@
-To Install:
+New Library
+===========
 
-```bash
-npm install
-```
+Usage
+-----
 
-To Build:
+Installation `npm install`
 
-```bash
-grunt build
-```
+Development
+-----------
 
-To Develop:
+To Build: `grunt build`
 
-```bash
-grunt watch
-```
+To Develop: `grunt watch`
 
-To Test:
- 
-```bash
-npm test
-```
+To Test: `npm test`
